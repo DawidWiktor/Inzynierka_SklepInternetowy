@@ -1,0 +1,81 @@
+﻿@model Sklep.Models.ViewModel.Admin.MotherboardsDetailsViewModel
+
+
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Standard:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.Standard, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Standard", @id = "Standard" } })
+        <label class="mdl-textfield__label modal_label--underline" for="Standard"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Chipset:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.Chipset, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Chipset", @id = "Chipset" } })
+        <label class="mdl-textfield__label modal_label--underline" for="Chipset"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Socket:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.Socket, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Socket", @id = "Socket" } })
+        <label class="mdl-textfield__label modal_label--underline" for="Socket"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Maksymalna ilość procesorów:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.MaksimumNumOfProcessors, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Maksymalna ilośóć procesorów", @id = "MaksimumNumOfProcessors" } })
+        <label class="mdl-textfield__label modal_label--underline" for="MaksimumNumOfProcessors"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Rodzaj obsługiwanej pamięci RAM:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.KindOfMemoryRAM, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Rodzaj obsługiwanej pamięci RAM", @id = "KindOfMemoryRAM" } })
+        <label class="mdl-textfield__label modal_label--underline" for="KindOfMemoryRAM"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Ilość slotów pamięci RAM:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.NumOfSlotsMemoryRAM, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Ilość slotów pamięci RAM", @id = "NumOfSlotsMemoryRAM" } })
+        <label class="mdl-textfield__label modal_label--underline" for="NumOfSlotsMemoryRAM"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Maksymalna ilość pamięci RAM:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.MaksimumCapaticyMemoryRAM, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Maksymalna ilość pamięci RAM", @id = "MaksimumCapaticyMemoryRAM" } })
+        <label class="mdl-textfield__label modal_label--underline" for="MaksimumCapaticyMemoryRAM"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Zintegrowana karta graficzna:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.IntegratedGraphicsCard, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Zintegrowana karta graficzna", @id = "IntegratedGraphicsCard" } })
+        <label class="mdl-textfield__label modal_label--underline" for="IntegratedGraphicsCard"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Chipset dźwiękowy:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.SoundChipset, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Chipset dźwiękowy", @id = "SoundChipset" } })
+        <label class="mdl-textfield__label modal_label--underline" for="SoundChipset"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Zintegrowana karta sieciowa:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.IntegratedNetworkCard, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Zintegrowana karta sieciowa", @id = "IntegratedNetworkCard" } })
+        <label class="mdl-textfield__label modal_label--underline" for="IntegratedNetworkCard"></label>
+    </div>
+</div>
+<div class="row">
+    <p class="admin_details_list_label admin_details_list_label--addDelivery col-5">Wyjścia:</p>
+    <div class="mdl-textfield mdl-js-textfield col-6  form-inline">
+        @Html.EditorFor(model => model.Output, new { htmlAttributes = new { @class = "mdl-textfield__input modal_input add_productSpecification_input", @placeholder = "Wyjścia", @id = "Output" } })
+        <label class="mdl-textfield__label modal_label--underline" for="Output"></label>
+    </div>
+</div>
+
